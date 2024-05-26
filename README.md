@@ -7,3 +7,10 @@ Run command for activate venv
 -- source venv/bin/activate 
 -- pip install -r /requirements.txt
 
+-- alembic revision --autogenerate -m "create user table"
+-- alembic upgrade head
+
+-- uvicorn app.main:app --reload
+
+
+
