@@ -1,6 +1,6 @@
 # common_use_platform
 
-# To start project first set env values
+To start project first set env values
 
 Run command for activate venv
 
